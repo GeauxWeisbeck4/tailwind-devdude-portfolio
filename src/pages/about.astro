@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Container from "../components/container.astro";
+import Sectionhead from "../components/sectionhead.astro";
+---
+
+<Layout title="About">
+    <Container>
+        <Sectionhead>
+            <Fragment slot="title">About</Fragment>
+            <Fragment slot="desc">Devdude loves skiing and coding.</Fragment>
+        </Sectionhead>
+
+        <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+            <h2 class="font-bold text-3xl text-gray-800">
+                About Tailwind Devdude
+            </h2>
+            <p class="text-lg leading-relaxed text-slate-500">
+                This is a story about Tailwind Devdude. Devdude is one of the
+                raddest dudes whos ever graced this earth. I know because I am
+                his best friend from college biology and also his roommate.
+                Devdude asked me to write this for him and to be totally modest
+                about his awesomeness to keep it real, but like I am going to be
+                modest - he's one sick cat. Like this dude takes the gnarliest
+                of gnar and just goes all schirrrreeechh
+                alllwlwwwwlaalllwlaaalll - SO MUCCCHHHH AIIIRRRTDDDEE. What the
+                fuck? Oh that's just Devdude throwing the dirt nasty on that
+                bitch!
+            </p>
+            <hr />
+            <p>
+                Yo I totally know they're going to shut me down for all this but
+                who-wicka cares! Devdude has got all the sicknasty throuw down
+                ski slaps you can think of. Just tell him to spank a snow pole
+                and he'll turn that zip so quick you'll be like Yooooo!!!
+                Devdude!!!
+            </p>
+            <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+            </div>
+        </div>
+    </Container>
+</Layout>
